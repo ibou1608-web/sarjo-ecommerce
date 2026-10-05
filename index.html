@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarjo.com | Vente de jus, décoration & produits du quotidien</title>
+    <meta
+      name="description"
+      content="Sarjo.com, vente de jus, décoration intérieure et divers produits, disponible du lundi au samedi de 9h à 16h."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <div class="brand-wrap">
+          <div class="brand-mark">S</div>
+          <div>
+            <p class="brand-name">Sarjo.com</p>
+            <p class="brand-tag">Fresh • Décor • Lifestyle</p>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Navigation principale">
+          <a href="#accueil" data-i18n="navHome">Accueil</a>
+          <a href="#produits" data-i18n="navProducts">Produits</a>
+          <a href="#about" data-i18n="navAbout">À propos</a>
+          <a href="#contact" data-i18n="navContact">Contact</a>
+        </nav>
+
+        <div class="lang-switch" aria-label="Choix de langue">
+          <button class="lang-btn active" data-lang="fr" type="button">FR</button>
+          <button class="lang-btn" data-lang="en" type="button">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="accueil">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <span class="eyebrow" data-i18n="eyebrow">Vente en ligne • GAMBIE</span>
+            <h1 data-i18n="heroTitle">Des produits frais, élégants et utiles pour votre quotidien.</h1>
+            <p class="lead" data-i18n="heroText">
+              Sarjo.com vous propose des jus savoureux, des articles de décoration intérieure et des produits variés pour embellir votre maison et satisfaire vos besoins quotidiens.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#produits" class="btn btn-primary" data-i18n="ctaShop">Commander</a>
+              <a href="tel:+2203745245" class="btn btn-secondary" data-i18n="ctaCall">Appeler</a>
+            </div>
+
+            <ul class="info-list">
+              <li><strong data-i18n="hoursLabel">Horaires :</strong> <span data-i18n="hoursText">Lun - Sam : 9h à 16h</span></li>
+              <li><strong>Tel :</strong> <a href="tel:+2203745245">+220 3745245</a></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Produits Sarjo">
+            <div class="product-badge badge-top">
+              <span data-i18n="badgeFresh">Jus frais</span>
+            </div>
+            <div class="product-badge badge-bottom">
+              <span data-i18n="badgeDecor">Décoration</span>
+            </div>
+            <div class="product-card main-card">
+              <div class="product-illustration">
+                <div class="juice-glass"></div>
+                <div class="juice-slice"></div>
+              </div>
+              <div class="product-meta">
+                <p class="mini-label" data-i18n="bestSeller">Best seller</p>
+                <h3 data-i18n="juiceName">Jus du jour</h3>
+                <p data-i18n="juiceDesc">Naturel, rafraîchissant et prêt à consommer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container features-grid">
+          <article class="feature-box">
+            <div class="feature-icon">🥤</div>
+            <h3 data-i18n="featureFresh">Jus rafraîchissants</h3>
+            <p data-i18n="featureFreshText">Une sélection de boissons naturelles pour votre énergie et votre plaisir.</p>
+          </article>
+          <article class="feature-box">
+            <div class="feature-icon">🏡</div>
+            <h3 data-i18n="featureDecor">Décoration intérieure</h3>
+            <p data-i18n="featureDecorText">Des items élégants pour sublimer votre maison et votre espace de vie.</p>
+          </article>
+          <article class="feature-box">
+            <div class="feature-icon">🛍️</div>
+            <h3 data-i18n="featureVaried">Divers produits</h3>
+            <p data-i18n="featureVariedText">Des articles utiles et variés pour un shopping pratique et agréable.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="products" id="produits">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow" data-i18n="shopTitleLabel">Notre catalogue</span>
+            <h2 data-i18n="shopTitle">Produits populaires</h2>
+          </div>
+
+          <div class="products-grid">
+            <article class="product-item">
+              <div class="item-image juice-bg">🥤</div>
+              <div class="item-body">
+                <span class="tag" data-i18n="tagJuice">Jus</span>
+                <h3 data-i18n="prodJuice">Jus tropical</h3>
+                <p data-i18n="prodJuiceText">Un mélange gourmand aux saveurs fruitées et très rafraîchissantes.</p>
+                <div class="price-row">
+                  <span class="price">GMD 150</span>
+                  <button type="button" class="mini-btn" data-i18n="addCart">Acheter</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-item">
+              <div class="item-image decor-bg">🪴</div>
+              <div class="item-body">
+                <span class="tag" data-i18n="tagDecor">Décoration</span>
+                <h3 data-i18n="prodDecor">Accessoires maison</h3>
+                <p data-i18n="prodDecorText">Des pièces modernes pour donner une touche chic à votre intérieur.</p>
+                <div class="price-row">
+                  <span class="price">GMD 500</span>
+                  <button type="button" class="mini-btn" data-i18n="addCart">Acheter</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-item">
+              <div class="item-image misc-bg">🧺</div>
+              <div class="item-body">
+                <span class="tag" data-i18n="tagMisc">Divers</span>
+                <h3 data-i18n="prodMisc">Articles du quotidien</h3>
+                <p data-i18n="prodMiscText">Des produits utiles pour votre maison, votre routine et votre confort.</p>
+                <div class="price-row">
+                  <span class="price">GMD 350</span>
+                  <button type="button" class="mini-btn" data-i18n="addCart">Acheter</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container about-grid">
+          <div class="about-card">
+            <span class="eyebrow" data-i18n="aboutLabel">Pourquoi nous choisir ?</span>
+            <h2 data-i18n="aboutTitle">Un commerce moderne, simple et accessible.</h2>
+            <p data-i18n="aboutText">
+              Chez Sarjo.com, nous mettons l’accent sur la qualité, la fraîcheur et le service. Nous proposons des produits soigneusement sélectionnés pour répondre aux besoins de nos clients au quotidien.
+            </p>
+          </div>
+
+          <div class="stats-box">
+            <div>
+              <strong>9h - 16h</strong>
+              <span data-i18n="statHours">Heures d’ouverture</span>
+            </div>
+            <div>
+              <strong>7j/7</strong>
+              <span data-i18n="statDaily">Disponible chaque jour</span>
+            </div>
+            <div>
+              <strong>+220 3745245</strong>
+              <span data-i18n="statPhone">Contact immédiat</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="container footer-inner">
+        <div>
+          <p class="brand-name">Sarjo.com</p>
+          <p data-i18n="footerText">Vente de jus, décoration intérieure et divers produits pour votre maison.</p>
+        </div>
+
+        <div class="footer-contact">
+          <p><strong data-i18n="hoursLabelFooter">Horaires :</strong> <span data-i18n="footerHours">Lundi au samedi : 9h - 16h</span></p>
+          <p><strong>Tel :</strong> <a href="tel:+2203745245">+220 3745245</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
